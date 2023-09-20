@@ -37,6 +37,14 @@
                 overflow: hidden;
                 padding: 0 24px;
                 transition: height, 0.5s ease;
+
+                p {
+                    margin: 0 0 24px;
+
+                    ul {
+                        padding-left: 40px;
+                    }
+                }
             }
 
             &--is-open {
